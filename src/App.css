@@ -1,0 +1,22 @@
+@import "tailwindcss";
+.scrollbar-hidden {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}
+
+.lightgreen{
+    color: lightgreen;
+}
+
+.long-text {
+    word-break: break-word;
+    /* Breaks long words/links */
+    overflow-wrap: break-word;
+    /* Ensures wrapping in modern browsers */
+    white-space: pre-wrap;
+    /* Keeps spacing but allows wrapping */
+}
