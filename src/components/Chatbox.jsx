@@ -105,7 +105,7 @@ const Chatbox = ({ selectedUser }) => {
 
           <button type='submit' className=' bg-violet-700 text-white font-extrabold flex justify-center items-center min-h-fit min-w-fit p-[10px_12px_10px_10px] rounded-[50%] cursor-pointer border-1 m-1 '>
 
-            <img src="/send.png" alt="" className=' h-[20px] w-[20px] min-h-fit min-w-fit invert ' />
+            <img src="/send.png" alt="" className=' h-[20px] w-[20px] invert ' />
 
           </button>
 
